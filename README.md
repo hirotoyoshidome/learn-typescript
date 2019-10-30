@@ -16,13 +16,22 @@ node -v
 * install Typescript
 
 ```
-sudo npm install -g typescript
+sudo npm install -g typescript ts-node
 ```
 
 ## exec
+* compile and exec
 
 ```
 tsc hello.ts
 node hello.js
 ```
 
+※↑tscでtsファイルをjsファイルにトランスコンパイルできるらしい
+
+* ts-node exec
+
+```
+ts-node hello2.ts
+```
+※プリコンパイルなしで実行もできる
