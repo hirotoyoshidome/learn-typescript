@@ -1,5 +1,3 @@
-# practice_typescript
-
 ## install
 
 * install latest nodejs
